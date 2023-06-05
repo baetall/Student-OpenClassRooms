@@ -84,6 +84,8 @@ h4 {
 
   background-color: #F2F2F2;
   width: 80%;
+  max-width: 580px;
+  min-width: 400px;
 }
 
 .lodging {
@@ -117,7 +119,8 @@ h4 {
 
 
 
-.acc-photo {width: 100%;
+.acc-photo {
+  width: 150px;
   height: 100px;
 }
 
@@ -134,4 +137,9 @@ h4 {
 
 .acc-price {
   margin-top: 0px;
+}
+
+.mp-photo {
+  width: 150px;
+  height: 100px;
 }
