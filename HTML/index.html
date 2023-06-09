@@ -9,7 +9,7 @@
 <!--
     Author's Name: LESLIE LUDWIG BAETA
     Date created:  2023 JUNE 01 
-    Most recent revision date: 2023 JUNE 04
+    Most recent revision date: 2023 JUNE 07
 -->
 
 <html lang="en">
@@ -83,8 +83,12 @@
 
         <p style="width:40%; margin-top: 30px;"; margin->There are more than 500 accomodations in this city</p>    
         
-        <!-- Start: Accomodation section-->
-            <div class="wrapper-acc">
+        
+        <!-- Start wrapper-large-->
+        <!-- wrapper-large to wrap "wrapper-acc and wrapper-mp"-->
+        <div class="wrapper-large">
+            <!-- Start: Accomodation section-->
+            <div class="wrapper-acc"> <!-- "acc" for Accomodations-->
                 <h4 classe="acc">Accomodations in Marseille</h4>
                 
                 <div class="lodging">
@@ -168,14 +172,158 @@
                         </div>
                     
                     </div>
-
+                    
 
                 </div>
+                <a id="show-more" href="#">
+                    <h5>Show more</h5>
+
+                </a>
             </div>
-        </section>    
-        <!-- End: Activities section-->
-        
+            <!-- End: Accomodation section--> 
+                
+            <!-- Start: Most Popular section-->
+            <div class="wrapper-mp"> <!-- "mp" for Most Popular-->
+                <h4 classe="mp">Most Popular</h4>
+
+                <div class="mostpop">
+                    <div id="mp-pict-1">
+                        <a href="#">
+                            <img class="mp-photo" src= "../IMAGES/Accomodation/2-large/_mp-Morning-sun-Hotel.jpg" alt="Morning Sun Hotel">
+                        </a>
+                        
+                        <div class="mp-descrip">
+                            <p class="mp-name">Morning Sun Hotel</p>
+                            <p class="mp-price">Night starting at <strong>128 $</strong></p>
+                            <p class="mp-rating">*****</p>
+                        </div>
+                    </div>
+                    <div id="mp-pict-2">
+                        <a href="#">
+                            <img class="mp-photo" src= "../IMAGES/Accomodation/2-large/_mp-A-Coeur-de-l'eau-bed and Breakfasit.jpg" alt="Coeur de l'eau-bed and Breakfast">
+                        </a>
+                        
+                        <div class="mp-descrip">
+                            <p class="mp-name">Coeur de l'eau-bed and Breakfast</p>
+                            <p class="mp-price">Night starting at <strong>71 $</strong></p>
+                            <p class="mp-rating">*****</p>
+                        </div>
+                    </div>
+                    <div id="mp-pict-3">
+                        <a href="#">
+                            <img class="mp-photo" src= "../IMAGES/Accomodation/2-large/_mp-Tout-Bleuet-Blanc-Hotel.jpg" alt="Tout Bleu et Blanc-Hotel">
+                        </a>
+                        
+                        <div class="mp-descrip">
+                            <p class="mp-name">Tout Bleu et Blanc-Hotel</p>
+                            <p class="mp-price">Night starting at <strong>68 $</strong></p>
+                            <p class="mp-rating">*****</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div> <!-- End of <div class="mostpop">-->
+
+            </div> <!-- End of <div class="wrapper-mp">-->
+            <!-- End: Most Popular ssection-->
+        </div>
+        <!-- End wrapper-large-->
+
+        <!--- Start wrapper for Activities -->
+        <div class="wrapper-actv">
+            <h4 class="act">Activities in Marseille</h4>
+
+            <div class="act-picts"> <!-- Start div class="act-picts"--> 
+                <div id="act-pict-1">
+                    <a href="#">
+                        <img class="act-photo" src="../IMAGES/Activites/2-large/act-Old-Port.jpg" alt="Old Port">
+                    </a>
+                    <div class="act-descrip">
+                        <p>Old Port</p>
+                    </div>
+
+                </div>
+
+                <div id="act-pict-2">
+                    <a href="#">
+                        <img class="act-photo" src="../IMAGES/Activites/2-large/act-Pomègues-Fort.jpg" alt="Pomègues Fort">
+                    </a>
+                    <div class="act-descrip">
+                        <p>Pomègues Fort</p>
+                    </div>
+
+                </div>
+
+                <div id="act-pict-3">
+                    <a href="#">
+                        <img class="act-photo" src="../IMAGES/Activites/2-large/act-Frioul-Island.jpg" alt="Frioul Island">
+                    </a>
+                    <div class="act-descrip">
+                        <p>Frioul Island</p>
+                    </div>
+
+                </div>
+
+                <div id="act-pict-4">
+                    <a href="#">
+                        <img class="act-photo" src="../IMAGES/Activites/2-large/act-Calanques-National-Park.jpg" alt="Calanques National Park">
+                    </a>
+                    <div class="act-descrip">
+                        <p>Calanques National Park</p>
+                    </div>
+
+                </div>
+
+                <div id="act-pict-5">
+                    <a href="#">
+                        <img class="act-photo" src="../IMAGES/Activites/2-large/act-Notre-Dame-de-la-Garde.jpg" alt="Notre Dame de la Garde">
+                    </a>
+                    <div class="act-descrip">
+                        <p>Notre Dame de la Garde</p>
+                    </div>
+
+                </div>
+
+                <div id="act-pict-6">
+                    <a href="#">
+                        <img class="act-photo" src="../IMAGES/Activites/2-large/act-Longchamp-Park.jpg" alt="Longchamp Park">
+                    </a>
+                    <div class="act-descrip">
+                        <p>Longchamp Park</p>
+                    </div>
+
+                </div>
+            </div> <!-- End div class="act-picts"-->    
+        </div>
+        <!--- Start wrapper for Activities -->
+
         <footer>
+            <div class="wrapper-foot">
+                <div class="col">
+                    <h4>About</h4>
+                    <p><a href="#">Site Map</a></p>
+                    <p><a href="#">General Terms and Conditions</a></p>
+                    <p><a href="#">Data and Privacy</a></p>
+
+                </div>
+
+                <div class="col">
+                    <h4>Our Accomodaations</h4>
+                    <p><a href="#">Quality Assessment</a></p>
+                    <p><a href="#">You have a hotel?</a></p>
+                    
+                </div>
+
+                <div class="col">
+                    <h4>Assistance</h4>
+                    <p><a href="#">Help Desk</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    
+                </div>
+
+            </div>
             
         </footer>
    

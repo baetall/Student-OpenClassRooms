@@ -80,10 +80,26 @@ h4 {
 
 }
 
+h5 {
+  padding: 25px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
 .wrapper-acc {
 
   background-color: #F2F2F2;
-  width: 80%;
+  width: 90%;
+  height: 580px;
+  max-width: 580px;
+  min-width: 400px;
+  border: 2px solid blue;
+  border-radius: 15px;
 }
 
 .lodging {
@@ -106,7 +122,7 @@ h4 {
 
 #pict-1, #pict-2, #pict-3, #pict-4, #pict-5, #pict-6 {
   width: 150px;
-  height: 200px;
+  height: 160px;
   background-color: white;
   margin-bottom: 20px;
   padding: 8px;
@@ -117,21 +133,133 @@ h4 {
 
 
 
-.acc-photo {width: 100%;
+.acc-photo {
+  width: 150px;
   height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: .25px;
+
+
 }
 
 .acc-descrip >p {
   font-size: small;
   height: 20px;
   margin-left: 8px;
+  margin-bottom: .25px;
 
 }
 
 .acc-name {
   font-weight: bold;
+  margin-top: .25px;
 }
 
 .acc-price {
   margin-top: 0px;
+}
+
+
+
+/* Start ----------- css styling for Most Pupular aside section ----------*/
+
+.wrapper-mp {
+  background-color: #F2F2F2;
+  width: 43%;
+  height: 580px;
+  /*max-width: 580px;
+  min-width: 400px;*/
+  border: 2px solid red;
+  border-radius: 15px;
+  margin-left: 30px;
+
+}
+
+
+.mp-photo {
+  width: 150px;
+  height: 125px;
+}
+
+#mp-pict-1, #mp-pict-2, #mp-pict-3 {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+#mp-pict-1 .mp-photo {
+  margin-right: 20px;
+}
+
+#mp-pict-2 .mp-photo {
+  margin-right: 20px;
+}
+
+#mp-pict-3 .mp-photo {
+  margin-right: 20px;
+}
+
+.mostpop #mp-pict-1, .mostpop #mp-pict-2, .mostpop #mp-pict-3 {
+  width: 325px;
+  height: 125px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 8px;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+
+}
+
+/*.mostpop .mp-descrip >p {
+  font-size: small;
+  height: 10px;
+  margin-left: 8px;
+  
+}*/
+
+.mostpop .mp-name {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.mp-name, .mp-price {
+  font-size: small;
+}
+
+
+/* <----css rules to set "Accomodations" and most popular side by side in a row ---->*/
+.wrapper-large {
+  
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 580px;
+  
+  
+  
+}
+
+/* < --- css rules for Activities --------------------------------------------------> */
+.act-photo {
+  width: 250px;
+  height: 125px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  
+}
+
+.act-descrip >p {
+  font-size: small;
+  font-weight: bold;
+  height: 20px;
+  margin-left: 8px;
+  margin-top: .25px;
+
+}
+
+.col>p {
+  margin-left: 25px;
 }
