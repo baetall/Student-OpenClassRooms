@@ -1,0 +1,400 @@
+/* styles rules for mobile phone screens - maximum size: 480px to 767px*/
+* {font-family: Raleway, Arial, Helvetica, sans-serif;}
+
+body {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* START: CSS rules for the header */
+.logo {
+    background-color: white;  
+    
+  }
+  
+  
+  #lgo {
+    height: 20px;
+  }
+
+  .wrapper-header {
+    width: 80%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 40px;
+    padding-right: 50px;
+    
+   
+  }
+
+  #accbtn {
+    margin-right: 20px;
+  }
+  
+  #accbtn, #actbtn {
+    border: none;
+    /*border: 1px solid red;*/
+    height: 30px;
+  
+  }
+  .top-menu {
+    display: flex;
+    /*background-color: aquamarine;*/
+    justify-content:center;
+  }
+
+  .top-menu a {
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*
+  .top-menu a:hover{
+    color:#0065FC;
+  }
+  */
+
+  .filters {
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    
+    /*width: 50%;*/
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*background-color: aquamarine;*/
+  }
+  
+  
+  /*
+  .filter {
+    background-color: white;
+    border-radius: 30px;
+    border-color: #F2F2F2;
+    font-size: 16px;
+  
+  }
+ */
+
+  .filter {
+    /*border-width: 0cqmax;*/
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 30px;
+    /*border-color: #F2F2F2;*/
+    font-size: 1rem;
+    margin-bottom: 10px;
+  
+  }
+
+  
+  
+  
+  
+  .filter>a {
+    /*background-color: aquamarine;*/
+    padding-right: 15px;
+  }
+
+  .filter a:active {
+    border: 2px solid blue;
+    color: darkred;
+    font-weight: bolder;
+  
+  }
+
+  .landmark {
+    background-color: lightgrey;
+    height: 35px;
+    width: 33px;
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 16px;
+  }
+
+  .icon {
+    background-color: #DEEBFF;
+    height: 30px;
+    width: 39px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    vertical-align: middle;
+    margin-left: -6px;
+    color: #0065FC;
+    font-size: 1.5rem;
+  }
+
+  .search-bar {
+    height: 48px;
+    border: none;
+    border-color: white;
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .button {
+    height: 48px;
+    width: 75px;
+    color: white;
+    background-color: blue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .info {
+    margin-bottom: 20px;
+  }
+
+  .filled-circle {
+      color:#0065FC;
+  }  
+
+  /* END: CSS rules for the header */
+
+  /* START: CSS rules for the accomodation section */
+/*
+  .acc-photo {
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: .25px;
+  }
+/*
+  #pict-1, #pict-2, #pict-3, #pict-4, #pict-5, #pict-6 {
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    
+  }
+*/
+
+.wrapper-large {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.wrapper-acc {
+
+  background-color: #F2F2F2;
+  width: 90%;
+  height: 2100px;
+  max-width: 580px;
+  min-width: 400px;
+  /*border: 2px solid blue;*/
+  border-radius: 15px;
+}
+
+.lodging {
+  /*width: 100%;*/
+  border: none;
+  /*padding-left: 40px;*/
+ /* border-radius: 20px;*/
+  border-bottom-left-radius: 15px;
+  padding-top: 1px;
+  /*background-color: #F2F2F2;*/
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  
+  flex-wrap: wrap;
+  /*justify-items: space-around;*/
+  justify-content: space-around;
+
+  
+}
+
+#pict-1, #pict-2, #pict-3, #pict-4, #pict-5, #pict-6 {
+  width: 300px;
+  height: 290px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding: 8px;
+ /* border: 1px solid blueviolet;*/
+  border-radius: 10px;
+  
+}
+
+
+
+.acc-photo {
+  width: 300px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: .25px;
+
+
+}
+
+.acc-descrip >p {
+  font-size: small;
+  height: 20px;
+  margin-left: 8px;
+  margin-bottom: .25px;
+
+}
+
+.acc-name {
+  font-weight: bold;
+  margin-top: .25px;
+}
+
+.acc-price {
+  margin-top: 0px;
+}
+
+
+  /* END: CSS rules for the accomodation section */
+
+  /* START: CSS rules for the most popular section */
+
+  .wrapper-mp {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 580px;
+    /*max-width: 580px;
+    min-width: 400px;*/
+    /*border: 2px solid red;*/
+    border-radius: 15px;
+    margin-left: 0px;
+    margin-top: 40px;
+  
+  }
+
+  .mp {margin-left: 30px;
+  
+  }
+
+  .black-star {margin-left: 90px;}
+
+
+  .mp-photo {
+    width: 150px;
+    height: 125px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    
+  }
+
+  #mp-pict-1, #mp-pict-2, #mp-pict-3 {
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+
+  #mp-pict-1 .mp-photo {
+    margin-right: 20px;
+  }
+
+  #mp-pict-2 .mp-photo {
+    margin-right: 20px;
+  }
+  
+  #mp-pict-3 .mp-photo {
+    margin-right: 20px;
+  }
+  
+  .mostpop #mp-pict-1, .mostpop #mp-pict-2, .mostpop #mp-pict-3 {
+    width: 350px;
+    height: 125px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 8px;
+    /*border: 1px solid blueviolet;*/
+    border-radius: 10px;
+  
+  }
+
+  /* END: CSS rules for the most popular section */
+
+  /* START: CSS rules for the activities section */
+  .act-photo {
+    width: 250px;
+    height: 125px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+  }
+
+  .act-descrip >p {
+    font-size: small;
+    font-weight: bold;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: .25px;
+  
+  }
+
+  #act-pict-1, #act-pict-2, #act-pict-3, #act-pict-4, #act-pict-5, #act-pict-6 {
+    /*border: 2px solid greenyellow;*/
+    margin-bottom: 30px;
+
+  }
+
+  #act-pict-1 img, #act-pict-2 img, #act-pict-3 img, #act-pict-4 img, #act-pict-5 img, #act-pict-6 img {
+    margin-left: 65px;
+  }
+
+  .act-descrip {
+    width: 239px;
+    margin-left: 64px;
+    margin-top:15px;
+    padding-left: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 10px 10px 10px #F2F2F2;
+    /*border: 2px solid red;*/
+  }
+
+  .blue-star {
+    color:#0065FC;
+  }
+  
+  .gray-star {
+    color:#DEEBFF;
+  }
+
+
+ footer a {
+  text-decoration: none;
+ }
+
+ .wrapper-foot {
+  background-color: #F2F2F2;
+ }
+
+
+  /* END: CSS rules for the activities section */
+
+  
+
+  
+  
+
+
+
+

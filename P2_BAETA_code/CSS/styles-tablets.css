@@ -1,0 +1,408 @@
+/* styles rules for tablets screens screens - minimum width 481px - maximum width: 768px. */
+* {font-family: Raleway, Arial, Helvetica, sans-serif;}
+
+body {
+  max-width: 768px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Start: styles rules for the elements in the header */
+/*
+.logo {
+  background-color: greenyellow;
+  
+}
+*/
+
+#lgo {
+  height: 20px;
+
+}
+
+.wrapper-header {
+  width: 80%;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  /*margin-right: 40px;
+  padding-right: px;*/
+  
+ 
+}
+
+a {
+  text-decoration: none;
+}
+
+#accbtn {
+  margin-right: 20px;
+}
+
+#accbtn, #actbtn {
+  border: none;
+  /*border: 1px solid red;*/
+  height: 30px;
+
+}
+.top-menu {
+  display: flex;
+  /*background-color: rgb(255, 127, 133);*/
+  justify-items: end;
+  justify-content: space-between;
+  
+}
+
+.advert {
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.filters {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /*background-color: aquamarine;*/
+}
+
+.filter-heading {
+  vertical-align: middle;
+}
+
+.filter {
+  /*border-width: 0cqmax;*/
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 30px;
+  margin-right: 15px;
+  /*border-color: #F2F2F2;*/
+  font-size: 1rem;
+
+}
+
+
+
+.filter>a {
+  /*background-color: aquamarine;*/
+  padding-right: 10px;
+}
+
+.filter a:active {
+  border: 2px solid blue;
+  color: darkred;
+  font-weight: bolder;
+
+}
+
+
+.landmark {
+  background-color: lightgrey;
+  height: 10px;
+  width: 16px;
+  border-bottom-left-radius: 25%;
+  border-top-left-radius: 25%;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.icon {
+  background-color: #DEEBFF;
+  height: 30px;
+  width: 39px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+  vertical-align: middle;
+  margin-left: -6px;
+  color: #0065FC;
+  font-size: 1.5rem;
+}
+
+.search-bar {
+  height: 48px;
+  border: none;
+  border-color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.button {
+  height: 30px;
+  width: 75px;
+  color: white;
+  background-color: blue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.info {
+  margin-bottom: 20px;}
+
+  .filled-circle {
+    color:#0065FC;
+  }  
+/* END: styles rules for the elements in the header */
+
+/* START: styles rules for the elements in the accomodations section */
+.blue-star {
+  color:#0065FC;
+}
+
+.gray-star {
+  color:#DEEBFF;
+}
+
+h4 {
+  
+  /*
+  background-color: #F2F2F2;
+  width: 60%;
+  
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  */
+  /*margin-bottom: 2px;*/
+  padding: 50px;
+
+}
+.wrapper-acc {
+
+  background-color: #F2F2F2;
+  width: 688px;
+  /*height: 450px;*/
+  /*border: 2px solid blue;*/
+  border-radius: 15px;
+}
+
+.show-more h5 {
+  padding-left: 50px;
+  padding-bottom: 15px;
+}
+
+.acc-photo {
+  width: 150px;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: .25px;
+}
+
+#pict-1, #pict-2, #pict-3, #pict-4, #pict-5, #pict-6 {
+  width: 150px;
+  height: 160px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  /*border: 1px solid blueviolet;*/
+  border-radius: 10px;
+  
+} .acc-descrip >p {
+  font-size: small;
+  height: 20px;
+  margin-left: 8px;
+  margin-bottom: .25px;
+
+}
+
+.acc-name {
+  font-weight: bold;
+  margin-top: .25px;
+}
+
+.acc-price {
+  margin-top: 0px;
+}
+
+.lodging {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+/* END: styles rules for the elements in the accomodations section */
+
+/* START: styles rules for the elements in most popular section */
+
+.wrapper-mp h4 {
+  margin-left: 50px;
+  margin-bottom: 0px;
+
+}
+
+.black-star {
+  margin-left: 220px;
+  
+
+}
+
+.mp-photo {
+  width: 200px;
+  height: 125px;
+  margin-left: 100px;
+  
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 3px solid white;
+  background-color: white;
+  
+}
+
+#mp-pict-1, #mp-pict-2, #mp-pict-3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  border-radius: 15px;
+ /* border: 2px solid green;*/
+  background-color: #F2F2F2;
+  
+}
+
+.mp-descrip {
+  background-color: white;
+  padding-left: 15px;
+  width: 260px;
+  height: 130px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /*border: 2px solid green;*/
+  margin-left: 0px;
+
+}
+
+
+
+#mp-pict-1 .mp-photo {
+  margin-right: 0px;
+}
+
+#mp-pict-2 .mp-photo {
+  margin-right: 0px;
+}
+
+#mp-pict-3 .mp-photo {
+  margin-right: 0px;
+}
+
+.wrapper-mp {
+  margin-top: 40px;
+  background-color: #F2F2F2;
+  width: 688px;
+  height: 600px;
+  /*height: 550px;*/
+  /*max-width: 580px;
+  min-width: 400px;*/
+  /*border: 2px solid red;*/
+  border-radius: 15px;
+  
+
+}
+
+/* END: styles rules for the elements in most popular section */
+
+/* START: styles rules for the elements in activities section */
+
+.act h4 {
+  padding-left: 5px;
+  margin-bottom: 1px;
+  padding-bottom: 5px;
+}
+
+#act-pict-1 img{
+  width: 250px;
+  height: 287px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /*border: 1px solid red;*/
+  margin-right: 40px;
+ }
+
+ #act-pict-4 img{
+  width: 250px;
+  height: 287px;
+  border-top-left-radius: 20px;
+  /*border-top-right-radius: 20px;*/
+  /*border: 1px solid red;*/
+  margin-right: 40px;
+ }
+
+
+ #act-pict-2 img, #act-pict-3 img, #act-pict-5 img, #act-pict-6 img {
+  width: 250px;
+  height: 140px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+ }
+
+ .act-left-2and3 {
+  /*width: 15%;*/
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid green;*/
+  /*justify-items: center;*/
+  margin-bottom: 20px;
+}
+
+.act-right-5and6 {
+  /*width: 15%;*/
+ display: flex;
+ flex-direction: column;
+ /*border: 2px solid goldenrod;*/
+ /*justify-items: center;*/
+ margin-bottom: 20px;
+}
+
+.act-left {
+  width: 672px;
+  display:flex;
+  justify-content: space-between;
+  /*border: 3px dotted darkred;*/
+  margin-right: 50px;
+}
+
+.act-right {
+  width: 672px;
+  display:flex;
+  justify-content: space-between;
+  /*border: 3px dotted rgb(68, 16, 138);*/
+}
+
+.act-descrip {
+  margin-left: 20px;
+}
+/* < --- Start css rules for the Footer Section --------------------------------------------------> */
+.wrapper-foot {
+  background-color: #F2F2F2;
+  width: 680px;
+  display: flex;
+  flex-direction: row;
+  /*justify-items: space-around;*/
+  justify-content: space-around;
+}
+
+
+.col>p {
+  /*margin-left: 25px;*/
+  margin-left:50px;
+  margin-top: 0.25px;
+  padding-top: .25px;
+  font-size: 12px;
+}
+
+.col>h4 {
+  margin-left: 0px;
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+/* < --- END css rules for the Footer Section -------------------------------------------
